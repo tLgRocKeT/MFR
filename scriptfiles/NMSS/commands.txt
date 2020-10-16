@@ -1,0 +1,592 @@
+Alap:
+• /help - Egy részletesebb leírás a szerverrõl, hogy mit hogyan kezdj el.
+• /hohelp - Leírás a játékosra felcsatolható objectekrõl.
+• /vohelp - Leírás a jármûre felcsatolható objectekrõl.
+• /prophelp - Házakkal kapcsolatos segítség.
+• /bizhelp - Bizniszekkel kapcsolatos segítség.
+• /forumhelp - Szerver és a fórum közötti összeköttetésrõl a leírás.
+• /rules - Szabályzat.
+• /updates - Frissítések, bár ez csak infót ír, hol nézd meg.
+• /cmds - Szintén infót ad, ide, ahol most olvasol.
+• /connects - Tulajdonosok címei.
+• /credits - Készítõk.
+
+Account:
+• /cpanel-  Account vezérlõpult. Itt minden adatot elérhetsz, amit csak változtatni lehet.
+• /register -  Regisztrálás
+• /login - Bejelentkezés
+• /stats - Statisztika ( Ha írsz mögé egy számot akkor annak az ID-jû játékosnak nézed meg )
+• /changepass - Jelszóváltás
+• /changename - Névváltás
+• /jailtime - Börtönben hátralevõ idõ.
+• /logout - Kijelentkezés ( Ne használjátok )
+• /forumregister - Fórumra való regisztrálás a játékban, és egyben a fórum account hozzákapcsolása a játékhoz.
+• /myforumacc - Egy meglévõ fórum account hozzákapcsolása a játékhoz.
+• /forumstats - Fórum statisztika megtekintése a játékban.
+• /styles - Ütésstílus áttállítása.
+• /laser(on/off/col) - Lézer be/ki kapcsolása vagy színének megváltoztatása.
+• /readcmds - Látszó parancsok
+• /fly - "C" gombbal való repülés be/ki kapcsolása.
+• /allowtime - Idõmód játékbelire vagy reálisra állítása.
+• /togglevel - Sebesség mentésének ki/be kapcsolása az /s parancsnál.
+• /fastrespawn - Halál utáén rögtön spawnolásnak ki/be kapcsolása.
+• /mytime - Idõd áttállítása vagy elmentése.
+• /resettime - Elmentett idõ törlése.
+• /myweather - Idõjárásod áttállítása vagy elmentése.
+• /resetweather - Elmentett idõjárás törlése.
+• /spawnplace - Spawnhely megváltozatása.
+• /colors ( /színek ) - Színed áttállítása.
+• /savecolor - Jelenlegi színed elmentése.
+• /rcolor - Színed átállítása véletlenszerûen.
+• /chatcolor - Chatban az üzenet színének megváltoztatása.
+• /removechatcolor - Chat üzenet színének törlése, azaz fehérre állítsa.
+• /idcolor - Neved után az ID színének állítása.
+• /removeidcolor - Néved utánn az ID színének törlése, azaz olyan színû lesz, amilyen a neved.
+• /walkstyle - Séta stílus áttállítása.
+• /findplayer - Játékos név szerinti keresése.
+• /findregid - Játékos keresése RegID szerint.
+• /nos - Nitró típus beállítása.
+• /favwheel - Kedvenc kerék beállítása.
+• /leavehq - Kilépés a jelenlegi HQ-ból.
+• /clothes - Karaktered öltöztetése.
+• /nametag - Neved elrejtése/mutatása más játékosok felé.
+• /allownametag - Elrejtett nevû játékosok neve mutatásának be/ki kapcsolása.
+• /stuntbonus - Stuntbónusz be/ki kapcsolása.
+• /hydtype - Hidraulika mód beállítása. (Kikapcsolás, bekapcsolás, alapértelmezett)
+• /tele(on/off) - Kattintással való teleportálás be/ki kapcsolása.
+• /nomusic - Szerver által automatikusan lejátszott zenék letiltása/engedélyezése.
+• /nostunts - Alap GTA jumpok letiltása.
+• /textdraws - Képernyõn lévõ textdrawok elrejtése/mutatása
+• /autologin - Automatikus bejelentkezés engedélyezése serial (gpci) alapján. Nem ajánlott, játékba a parancs beírásánál le van írva, hogy miért!
+• /autospawn - Automatikus spawnolás engedélyezése felcsatlakozásnál. (Kihagyja a skinválasztót és rögtön spawnol)
+• /saveskin - Kedvenc skin elmentése.
+• /removeskin - Kedvenc skin törlése.
+• /mynames - Eddig használt neveid megtekintése.
+• /warns - Figyelmeztetések megtekintése.
+• /pm - Privát üzenet küldése
+• /allowvobjects - Más játékos jármûvén lévõ obejctek mutatása/elrejtése.
+• /antidb - Anti DribeBy védelem engedélyezése/bekapcsolása
+• /dminfo - DM Infó módosítása
+• /telemsg - Saját magad teleport helyének láthatóságának tiltása/elrejtése
+• /tds - Textdrawok elrejtése/megjelenítése
+• /mygrav - //mygravity - Saját gravitáció módosítása
+• /xp - XP megtekintése, más játékosra is használható
+• /skin - Skined megváltoztatása
+
+Alap SA-MP:
+• /quit & /q - Kilépés a játékból.
+• /interior - Jelenlegi interior.
+• /fpslimit - FPS limit állítása. ( Frame Limiter-el megy csak )
+• /pagesize - Chatbox sorainak állítása.
+• /headmove - Karakter fej mozgatásának be/ki kapcsolása. Ha kikapcsolod, akkor a többiek látják hogy mozog, csak te nem!
+• /timestamp - Chatben elküldött üzenetek elé berakja az idõt.
+• /dl - Minden Jármûnek látod az adatait.
+• /audiomsg - Tiltani/Engedélyezni lehet vele, hogy mutatja üzenetben a jelenlegi zene URL címét.
+• /mem - ?
+• /reconnect - Újracsatlakozás (Szerver oldali parancs, nem a kliensben van - bugos is lehet, sokkal gyorsabb a régi jól bevált relog!)
+
+Zene:
+• /radio - InGame rádió bekapcsolása.
+
+Pénz:
+• /bank - Odateleportálás a bankhoz.
+• /deposit - Pénz betétele bank.
+• /withdraw - Pénz kivétele bankból.
+• /balance - Bankban lévõ egyenleged.
+• /flag - Zászló helyének megtekintése.
+• /bonuscar - Bónuszautó helyének megtekintése.
+• /call - Eredmény a matek feladatra.
+• /matek - Jelenlegi matek feladat megtekintése.
+• /weapons - Fegyver vásárlása. [Régi menü] ( Megjegyzi a szerver lecsatlakozás után! )
+• /wmenu - Fegyver vásárlása, új!
+• /wskill - Fegyverek tapasztalatának átállítása.
+• /bounty - Vérdíj kitûzése egy megadott játékos fejére.
+• /getbounty - Szerveren tartózkodó játékosok fején lévõ vérdíjaknak megtekintése. (Ha nem ír ki semmit, akkor senki fején nincs vérdíj)
+
+Ház rendszer:
+• /propdata - Megadott ház/biznisz adatainak lekérése.
+• /findprop - Ház/Biznisz keresése ár vagy jövedelem szerint kettõ össze között.
+• /buyprop - Ház megvásárlása.
+• /sellprop- Ház eladása.
+• /lockprop - Ház lekódolása.
+• /unlockprop - Ház kódjának törlése.
+• /myprops - Házad/Bizniszed adatainak megtekintése.
+
+• /housecar - Házautó szerkesztése.
+• /housecar add - Jármû hozzáadása a házadhoz.
+• /housecar pos - Házautód helyének megváltoztatása.
+• /housecar remove - Jármû törlése a házadtól.
+• /housecar color - Házautód színének megváltoztatása.
+• /housecar paintjob - Házautód festõmunkájának megváltoztatása.
+• /housecar randwheel - Házautód random kerekének be/ki kapcsolása.
+• /housecar doors - Házautód ajtajának be/ki nyitása.
+• /housecar lights - Házautód lámpáinak fel/le kapcsolása.
+• /housecar bonnet - Házautód motorháztetõjének fel/le csukása.
+• /housecar get - Házautód csomagtartójának fel/le csukása.
+• /housecar notele - Házautóddal való teleportálás tiltása/engedélyezése.
+• /housecar saveobjects - Házautódon lévõ objectok elmentése.
+• /housecar removeobjects - Házautódon lévõ objectok törlése. (Persze el is menti)
+• /housecar respawn - Házautód újraspawnolása.
+• /housecar get - Házautód magadhoz teleportálása.
+
+• /propname - Ház nevének megváltoztatása.
+• /enter - Bemenés a házba/bizniszbe.
+• /exit - Kijövés a házból/bizniszbõl.
+• /gotoprop (/gtp) - Odateleportálás a házhoz.
+• /gotoinprop (/gip) - Odateleportálás a házhoz bévülrõl.
+• /home - Hazateleportálás.
+• /rabol - Ház/Biznisz kirablása.
+• /ellop - Házautó ellopása. ( Elkell szállítanod egy megadott helyre )
+• /ownertime - Ház/Biznisz tulajdonosának kiírja az utolsó szerveren töltött idejét.
+• /riaszto - Riasztó vásárlása.
+• /hackdetector- Hackdetector vásárlása.
+• /buyelements - Tárgyak vásárlása a házba.
+• /houseelements - Házadban lévõ tárgyak megtekintése.
+• /myelements - A raktárodban lévõ tárgyak megtekintése.
+
+
+Biznisz-rendszer:
+• /propdata - Megadott ház/biznisz adatainak lekérése.
+• /findprop - Ház/Biznisz keresése ár vagy jövedelem vagy belépõ szerint kettõ össze között.
+• /buybiz - Ház megvásárlása.
+• /sellbiz - Ház eladása.
+• /lockbiz - Ház lekódolása.
+• /unlockbiz - Ház kódjának törlése.
+• /bizevalue - Biznisz belépõjének ára megváltoztatása.
+• /bizicon - Biznisz ikonjának megváltoztatása.
+• /bizname - Biznisz nevének megváltoztatása.
+• /enter - Bemenés a házba/bizniszbe.
+• /exit - Kijövés a házból/bizniszbõl.
+• /gotobiz - Odateleportálás a bizniszhez.
+• /gotoinbiz - Odateleportálás a bizniszhez bévülrõl.
+• /mybiz - Odateleportálás a saját bizniszedhez.
+• /rabol - Ház/Biznisz kirablása.
+• /ownertime - Ház/Biznisz tulajdonosának kiírja az utolsó szerveren töltött idejét.
+
+Jármû:
+• /v- Jármû lehívása, ID szerint is, de ha üresen hagyod akkor dialóg jelenik meg és választanod kell.
+• /findcar - Jármû keresése név szerint.
+• /neon - Neon rakás a jármûvedre.
+• /vid - Összes adat a jelenlegi jármûrõl. (ID, Model, Ülések, Trailer, stb...)
+• /vflags - Jármûvel kapcsolatos speciális adatok kiírása. (Szín, Paintjob, Interior, stb...)
+• /modelinfo - Jármûnek a speciális pontjainak az offset értékét írja ki. Ez hasznos az /aotv-hez.
+• /lock - Jármû lezárása. ( Ha kiszállsz, akkor automatikusan kinyitódik )
+• /unlock- Jármû kinyitása.
+• /veh - Jármû speciális dolgai. ( Csomagtartó, Motorháztetõt, Lámpa áttállítása )
+• /nrg & /inf - Gyors autó lehívása ( NRG-500, Infernus )
+• /ltc<1-26> - Tuningolt autó lehívása, szinte minden autó benne van.
+• /getcar - Általad lespawnolt kocsi magadhoz teleportálása.
+• /gotocar - Odateleportálás az általad lespawnolt kocsihoz.
+• /mycarhealth - Általad lespawnolt kocsi életének beállítása.
+• /plate - Jármû rendszámtáblájának megváltoztatása.
+• /randplate - Alap rendszámtábla visszaállítsa.
+• /carcolor - Jármû színének megváltoztatása.
+• /rainbow ( /avc ) - Automatikus jármû színváltás, gyors vagy lassú.
+• /autocolor - Kedvenc jármûszín elmentése.
+• /autopaintjob - Kedvenc paintjob elmentése.
+• /disableautopaintjob - Kedvenc paintjob törlése.
+• /disableautocolor - Kedvenc jármûszín törlése.
+• /paintjob - Jármû festõmunkájának megváltoztatása.
+• /vmod - Egy tuning hozzáadása a jármûhöz ID szerint. ( Ha rossz az ID, akkor nem adja hozzá )
+• /rvmod  - Egy tuning tuning törlése a jármûrõl ID szerint.
+• /speedboost - Spedboost be/ki kapcsolása és erõsségének megváltoztatása.
+• /jump - Vehicle Jump be/ki kapcsolása és erõsségének megváltoztatása.
+• /autorepair - Automatikus jármû javítás be/ki kapcsolása és áttállítása motorra vagy teljesre.
+• /keychange - SpeedBoost, Vehicle Jump & Flip gombjainak áttállítása.
+• /damage - Jármû sérülésének beállítása. ( Kerekek, Ajtók, stb... )
+• /wheels- Jármû kerekének kicserélése.
+• /spin- Spin be/ki kapcsolása. ( Forgás )
+• /spin(x/y/z)- Spin értékeinek megváltoztatása.
+• /tow - Trailer felcsatolása. ( Akár repülõt is lehet kocsihoz, vagy motorkához kocsit, akármit... )
+• /detach - Trailer lekapcsolása.
+• /antifall - Anti Fall be/ki kapcsolása. (Nem esel le a motorról)
+• /speedo - Sebességmérõ be/ki kapcsolása. 
+• /angular - Angular velocity állítása.
+• /velocity - Sebesség állítása.
+• /damagestatus - Jelenlegi törés státusz.
+• /updatedamage - Törés sztátus felújítása a megadottra.
+• /quat - Jármû Quaternion forgásának lekérése.
+• /neon - Neon rakása a kocsira.
+• /vparams - Jármû speciális paramétereinek állítása.
+• /v2 - Másodlagos jármû lehívása
+• /carfly - Jármû röpülésének ki/be kapcsolása, gyorsaságának állítása (/carfly 1.5)
+• /dcar2 - Másodlagos jármû tölrése
+• /autopj - Automatikusan átváltozik a jármû festõmunkája az itt megadottra. 
+• /dautopj - Automatikus festõmunka törlése
+• /rvcolor - Random jármûszín beállítása
+• /updamage - Jármû sérülésének módosítása 
+• /up - Felragadás a daru mágnesére (/daru)
+• /down - Daruról leakasztás (/daru)
+• /fix - /javit - Jármûved megjavítása 
+• /flip - Jármûved helyreállítása
+• /hyd - Hidraulika rakása a jármûvedbe
+• /nitrostate - /nos - /n2o - Nitró típusának beállítása
+• /respawntrailer - Area51 körül lévõ trainerek újraspawnolása
+
+Felcsatolható objectek:
+• /myobjects - Elmenteni kívánt felcsatolható object beállítása.
+• /holist - Összes elmentett felcsatolható object listája.
+• /findobject - Object név szerinti keresése.
+• /hoslot - Object slot-ja amit a /holist-ben csatolsz fel.
+• /bones - Kiírja a testrészek nevét ID szerint.
+• /holding ( /mho ) - Felcsaolt objected szerkesztése.
+• /mhocolor - A megadott slotoban lévõ felcsatolt object színének állítása.
+• /holdingoff ( /rmho ) - Felcsatolt objected törlése.
+• /sho ( /smho ) - Egy slotban lévõ felcsatolt objectod elmentése.
+• /fsho - Általad elmentett felcsatolható object felülírása.
+• /honame - Elmentett felcsatolható object átnevezése.
+• /lho - Elmentett felcsatolható object betöltése név szerint.
+• /mhos - Saját magad készített felcsatolható objectek listája.
+
+
+Felcsatolható frissülõ objectek:
+• /particle - Megadott object id hozzákapcsolása. Ez minden másodpercben frissül, efektekre alkalmas.
+• /dparticle - Felcsatolt frissülõ object törlése.
+
+
+Jármû objectek:
+• /aotv - Egy megadott object hozzákapcsolása a jármûvedhez a megadott slotban.
+• /myvobjects - Kocsidon lévõ objectok adatainak megtekintése.
+• /savevehicleobject ( /svo ) - Jármûre felcsatolt object elmentése egy megadott slotból.
+• /loadvehicleobject ( /lvo ) - Jármûre felcsatolható object betöltése egy megadott slotba.
+• /fsvo - Általad elmentett kocsira felcsatolható object felülírása egy másikra.
+• /voname - Jármûre felcsatolt object átnevezése.
+• /svoset - Jármûveden lévõ összes object elmentése egy setbe.
+• /lvoset - Jármûre csatolható object set betöltése.
+• /fsvoset - Általad elmentett jármûre csatolható object set felülírása.
+• /vosetname- Jármûre felcsatolt object set átnevezése.
+• /volist - Jármûre felcsatolható objectek listája.
+• /vosets - Jármûre felcsatolható object setek.
+• /findvobject - Jármûre felcsatolható object keresése név szerint.
+• /vomaterial - Jármûre felcsatolt object textúrájának, színének átállítása.
+• /deleteobject - Felcsatolt object törlése.
+• /flvoset - Jármû object slot betöltése, de nem törli a kocsidon lévõ objecteket, hanem hozzáadja a betöltendõt
+• /findvoset - Jármû object set között keresés
+
+
+Mini-játékok:
+• /derby - Roncsderby.
+• /fallout - Ne ess Le! Nem szabad leesni a mozgó kockákról.
+• /gangwar - Bandaháború.
+• /ctc - Capture The Car.
+• /range - Mozgó halakat kell lõdözni.
+• /clearworld - Tiszta világ. Nincs semmi kocsi & object.
+• /trucking - Kamionozás. Fuvart kell szállítani.
+• /postas- Póstás munka. Leveleket kell kézbesíteni.
+• /pizza - Pizzás munka, pizzákat kell házhoz szállítani.
+• /office - Irodaház lift.
+• /kerek - Forgó óriáskerék.
+• /mall - Bevásárlóközpont.
+• /rocket - Rakéta kilövõ.
+• /rocket2 - Rakéta kilövõ. Ez felfelé lõ.
+• /leave - Kilépés.
+
+
+Verseny:
+• /join - Csatlakozás a jelenlegi versenyhez.
+• /leave - Kilépés a jelenlegi versenybõl.
+• /sos - Visszarakás az elõzõ Checkpointhoz.
+• /races - Verseny indítása a listából.
+• /myrecords - Kiírja a verseny rekordjaidat.
+• /racerecords -Versenyrekordok megtekintése.
+• /findrace - verseny keresése (Lehet név, rekord, minden szerint)
+• /racers - Versenyzõk megnézése a jelenleg futó versenyben
+• /findrecord - Verseny rekord keresése
+
+
+Verseny szerkesztés:
+• /racename - Verseny nevének átírása.
+• /racea - Verseny teleportnál a fordulás áttállítása.
+• /racetype - Verseny típus áttállítása.
+• /editrace - Meglévõ verseny szerkesztése.
+• /buildrace - Verseny szerkesztésének elkezdése.
+• /buildmenu - Verseny szerkesztõmenübe belépés.
+• /saverace - Verseny elmentése.
+• /fsaverace - Meglévõ verseny felülírása.
+• /clearrace - Versenyszerkesztõ mód befejezése.
+• /cp - CP lerakása.
+• /scp - CP Kiválasztása.
+• /rcp - Kiválasztott CP újra lerakása.
+• /gcp - Odateleportálás a megadott CP-hez.
+• /dcp - Kiválasztott CP törlése.
+
+Klán-rendszer:
+• /aclans - Megerõsítetlen klánok listája
+• /clan - Klán parancsok
+• /clanbank - Klánbank vásárlása/áthelyezése
+• /clancp - Clan vezérlõpuét
+• /clanhelp - Klánsegítség
+• /clanhome - Klán spawnhelyhez teleportálás
+• /clanmembers - /cm - Szerveren lévõ online klántagok megtekintése 
+• /clans - Megerõsített klánok megtekintése
+• /clanspawn - Klánspawn megváltoztatása 
+• /clanstate - Klán státuszának megváltoztatása (Nem megerõsített/Megerõsített)
+
+
+
+Top:
+• /top - A legjobb játékosok megtekintése. ( Legtöbb; XP, pénz, nyert versenyek, stb... )
+• /cmdcount - A megadott paracsot hányszor használták.
+• /records - Kiírja egy dialógba az összes verseny rekord idejét, és azt, hogy milyen jármûvel döntötték meg.
+
+
+Szerver:
+• /uptime - Szerveren történõ dolgok megtekintése a legutolsó restart óta.
+• /serverinfo - A server adatainak megtekintése.
+• /foruminfo - Fórumról bár adatot ír ki.
+• /snetwork - Szerver hálózat adatainak megtekintése.
+• /network - Megadott játékos hálózat adatainak megtekintése.
+• /version - Megadott játékos kliens verziójának megtekintése.
+• /sqlstat - MySQL Statisztikát írja ki.
+• /www - A server weboldalának megtekintése.
+• /dmdeaths - Az a legtöbb 25 ember aki a legtöbbet halt meg a megadott DM-ben.
+• /dmkills - Az a legtöbb 25 ember aki a legtöbbet ölt a megadott DM-ben.
+• /deathswith - Az a legtöbb 25 ember aki a legtöbbször halt meg a megadott fegyvertõl.
+• /killswith - Az a legtöbb 25 ember aki a legtöbbet ölt a megadott fegyverrel.
+• /bans - Banlista megtekintése.
+• /members - HQ-k ban lévõ tagok megtekintése.
+
+
+Chat:
+• /su - Suttogás, azok látják, akik közvetlenül mellettted vannak.
+• /c - Beszéd, azok látják, akik a közeledben vannak.
+• /sh - Kiabálás, azok látják akik 100 méterig vannak tõled.
+• /me - Cselekvés.
+• /try - Próbálkozás.
+
+
+Egyedi 3D szöveg:
+• /mytext - Fej feletti 3D szöveg beállítása.
+• /cmytext - 3D üzenet szövegének megváltoztatása.
+• /ofmytext - 3D üzenet magasságának áttállítása.
+• /smytext - 3D üzenet elrejtése/megjelenítése.
+• /dmytext - 3D üzenet törlése.
+
+
+Kameranézet:
+• /rmycam - Kameranézet beállítása. Ha üresen hagyod, akkor az 'Y' és az 'N' gombbal állítod.
+• /rcam - Kameranézet törlése.
+• /mysin - Speciális kameranézet beállítás a sinus és cosinus tétel segítségével.
+• /spfa - Fordulásod beállítása fokokban.
+• /elore - Elõre rak téged a megadott távolsággal.
+• /oldalra - Oldalra rak téged a megadott távolsággal.
+• /interpolate - Kamera mozgatása a megadott paraméterekkel.
+• /actdo - Kamera hozzákapcsolása egy dinamikus objecthez. Az object akár lehet a kocsin, vagy mozoghat is.
+• /acto - Kamera hozzákapcsolása egy globális objecthez.
+
+
+Bejelentések
+• /bug - Hibajelentés elküldése az adminoknak.
+• /report - Panasz elküldése az adminoknak.
+• /idea - Ötlet elküldése a szerverrel kapcsolatban az adminoknak.
+• /bugs - Utolsó 30 hibajelentés megtekintése.
+• /reports - Utolsó 30 panasz megtekintése.
+• /ideas - Utolsó 30 ötlet megtekintése.
+
+
+Párbaj:
+• /duel - Játékos párbajra hívása
+• /duelinfo - Párbaj információk megtekintése és elfogadása vagy elutasítása
+
+
+Teleportálás:
+• /t - Teleport menü. ( Vagy 'Y' gomb )
+• /telelist - Teleport lista. ( Öreg )
+• /splist - Adminok által mentett pozíció lista megtekintése.
+• /rtele - Véletlenszerûen teleportál az összes teleport közül valahova.
+• /findtele - Teleport keresése.
+• /lp - Odateleportálás egy admin által mentett pozícióra.
+• /s - Pozíció mentése.
+• /l - Odateleportálás a mentett pozícióra.
+• /vgoto - Beülés egy kocsiba ID szerint.
+
+
+Biztonság:
+• /allowgoto - Más játékosok hozzád való teleportálásának engedélyzése/tiltása.
+• /ignore - PM-ek letiltása egy megadott játékostól.
+• /unignore - PM-ek feloldása egy megadott játékostól
+• /ignoreall - PM-el letiltása mindenkitõl.
+• /unignoreall - PM-ek feloldása mindenkitõl.
+
+Egyéb:
+• /animlist - Animációk
+• /exitdm - Kilépés a DM zónából.
+• /bomb - Bomba lerakása
+• /killbomb - Lerakott bomba megsemmisítése
+• /dive - Felrepülés/Lemenés.
+• /k - Olyan, mint a /dive, csak itt kidob a kocsiból, nem kocsival együtt dob fel.
+• /bor, /sör, /cigi, /sprunk - Italok ivása
+• /heal - Életed feltötése.
+• /p - Ejtõernyõ.
+• /nolights - Statikus lámpák törlése. 
+• /notrees - Statikus fák törlése. 
+• /nopylons - Statikus villanyoszlopok törlése. 
+• /locate - Egy nyilat mutat a megadott játékos felé, és kiírja, hogy milyen messze vagy tõle.
+• /date - Kiírja a hónap nevét és a nap nevét a beírt dátumnak megfelelõen. (1996 11 29 -> 1996 November 29)
+• /adminlogin - Bejelentkezés egy Tulajdonos karijába.
+• /adminlogout - Kijelentkezés egy Tulajdonos karijából.
+• /getid (/find) - Szerveren lévõ játékos keresése név szerint.
+• /liftspeed - Liftek sebességét tudod vele átállítani. ( /elevator és itt vannak a liftek )
+• /rocketspeed - Rakéta kilövõ sebességét tudod vele átállítani. Ezt csak neked állítja át.
+• /muted - Némított játékosok megtekintése.
+• /jailed - Börtönben lévõ játékosok megtekintése.
+• /frozed - Fagyasztott játékosok megtekintése.
+• /afk - AFK módba lépés.
+• /back - Visszajövés az AFK módból.
+• /afklist - AFK-ban lévõ játékosok megtekintése.
+• /report - Adminoknak üzenet írása.
+• /skinchange - Gyors skinváltás engedélyezése. ( NUM 4 & NUM 6 )
+• /stopchange - Gyors skinválasztás befejezése.
+• /reloadskin - Elmentett skined újratöltése.
+• /geoip - Játékos országának lekérése.
+• /version - Játékos kliens verziójának lekérése.
+• /count - Visszaszámlálás elindítása.
+• /ping - Megadott játékos átlag pingének lekérése.
+• /playsound - GTA Zene lejátszása a beírt ID-vel.
+• /weaps - Játékos fegyverei megtekintése.
+• /allowgoto - Játékosok hozzáad való teleportálásának be/ki kapcsolása.
+• /goto - Odateleportálás a megadott játékoshoz.
+• /racemode - Versenymód bekapcsolása. Ez a DM Race mapokhoz volt szükséges 0.3x elõtt.
+• /closesto - Visszaadja a legközelebbi játékos object koridnátáit.
+• /closestgo - Visszaadja a legközelebbi globális objectek kordinátáit.
+• /gotoi - Odateleportálsz egy item típushoz. (Object, Pickup, 3D Text, Zóna, stb..)
+• /random - Véletlenszerûen csinál veled valamit.
+• /mydrunk - Berúgási szinted átállítása.
+• /sober - Kijózanodás.
+• /aka - (Ha játékos vagy csak) Kiírja milyen nevekkel voltál fent, adminnak megy más játékosra is.
+• /ipaka - Kiírja, hogy a megadott ip címmel milyen nevû játékosok voltak fent.
+• /saka - Kiírja, hogy a megadott szériaszámmal milyen nevû játékosok voltak fent.
+• /addplayer - Hozzáad egy játékost az sscanf-hez, ha az bugol.
+• /aranytojas - Jelenlegi aranytojás helyének megtekintése
+• /armedweap - Jelenlegi fegyvered állítása
+• /autogate - Grovenél az automatikus kapu be/ki kapcsolása
+• /grovefal - Grovefal kinyitása/becsukása
+• /groveheli - Grove tetõ kinyitása/becsukása
+• /reloadbabuk - Grove bábúk frissítése
+• /lift - Aztecas lift kezelése
+• /selectobject - /sobject - Object kiválasztása szerkesztésre
+• /cancelobject - /cobject - Object szerkesztés befejezése
+• /buy - Alkohol vásárlása (Blueberry bárban)
+• /buga - /rabol - Ház kirablása
+• /cmdlist - Parancslista megtekintése
+• /findcmd - Parancs keresése
+• /animations - /anims - /animok - Animációk listája
+• /setpgravity - Gravitációd állítása
+• /csuszda -  Vidámparkban lévõ csúszda elindítása
+• /forgo - Forgó elindítása (Vidámparkban; /vidampark)
+• /forgoszek - Forgószék elindítása (Vidámparkban; /vidampark)
+• /hidraulika - Hidraulika elindítása (Vidámparkban; /vidampark)
+• /korhinta - Körhinta elindítása (Vidámparkban; /vidampark)
+• /viking - Vikin hajó elindítása (Vidámparkban; /vidampark)
+• /thejail - Börtön ketrec mozgatása (Vidámpark; /vidampark)
+• /topgun - Topun elindítása (Vidámparkban; /vidampark)
+• /tehenkorhinta - Tehénkörhinta elindítása (Vidámpark; /vidampark)
+• /observer - Observer beindítása (Vidámparkban; /vidampark)
+• /revolution - Revolúció elindítása (Vidámparkban; /vidampark)
+• /roller - Roller elindítása (Vidámparkban; /vidampark)
+• /project1 - /projekt - Project elindítása (Vidámparkban; /vidampark)
+• /set - Játékos berakása HQ-ba
+• /remove - Játékos kidobása HQ-ból
+• /hqhelp - HQ segítésg
+• /dropflag - Zászló eldobása
+• /drunk - Animáció
+• /drunkoff - Kijózanodás
+• /getszintbyxp - Szint lekérése a beírt XP alapján
+• /getxpbyszint - Megadott szinthe a szükséges XP lekérése
+• /fps - Szerveren lévõ játékosok FPS-ének megtekintése
+• /find - Szerveren lévõ játékosok között keresés
+• /gmaterialtext - Beírt object material textjének lekérése
+• /freezed - Lefagyaszott játékosok listázása
+• /bilincs - Bilincs animáció
+• /bor - Bor ivása
+• /donate - Támogatás
+• /materialtext - Object material textjének megváltoztatása
+• /szmtext - Material text állítása (Csak text, semmi speciális opció)
+• /smycam - Kamera pozíciójának átállítása
+• /jetpack - Jetpack lekérése
+• /startbalon - Léegbalon elindítása, ha épp leszált és nem megy
+• /stop - zene megállítása
+
+Debug:
+• /debug - Debug mód bekapcsolása.
+• /inrange - Közeledben lévõ játékosok megtekintése pár speciális fetétellel.
+• /upperb - Kiírja a maximum ID-ket. ( Object, CP, 3D Text, stb... )
+• /len - Kiírja a beírt szöveg hosszát.
+• /myhealth - Kiírja a megadott játékos életét & golyóálló mellény értékét. 
+• /mypos - Kiírja a megadott játékos pozícióját, interiorját & virtuális világát.
+• /mycam - Kiírja a megadott játékos kamera kordinátáit. ( Pos, FrontVector & CameraMode )
+• /anim - Kiírja a megadott játékos jelenleg futó animáció nevét és ID-jét.
+• /setplayerpos - Eleleportálás a megadott kordinátákra.
+• /setplayerposfindz - Eleleportálás XY kordináta szerint.
+• /fz - Jelenlegi legmagasabb kordinátára rak.
+• /rtime - VersenyIdo, VersenyCount, totalRaces, PlayersInDerby3, FalloutPlayers változók értékeit írja ki.
+• /myclothes - PStyle változók értékeit írja ki.
+• /mycolor - Kiírja a megadott játékos színét.
+• /inwater - Kiírja, hogy jelenleg vízben-e vagy.
+• /mysurf - Jelenlegi jármû id, object id amin szörfözöl.
+• /myammo - Fegyveredben lévõ töltények száma.
+• /mystate - Jelenlegi helyzet. ( GetPlayerState )
+• /wslot - Jelenlegi fegyvered slot-át írja ki.
+• /myskill - Kiírja a megadott játékos fegyver tapasztalatait.
+• /xmycolor - Színed átállítása egy megadott hexadecimális számra.
+• /pvar - Kiírja a megadott játékos összes PVar értékét.
+• /skill - Fegyver tapasztalat áttállítása.
+• /apa - ApplyPlayerAnimation - Animáció lejátszása egyedi paraméterekkel.
+• /speciala - SetPlayerSpecialAction - Speciális akció lejátszása ID szerint.
+• /spsn - SetPlayerShopName - Jelenlegi interior script átállítása.
+• /spaw - Jelenlegi nálad lévõ fegyver átállítása ID szerint.
+• /myweap - Nálad lévõ fegyver ID-je.
+• /mycomp - Autódon lévõ összes tuning ID-jét írja ki.
+• /playstream - Zene lejátszása egyedi beállításokkal.
+• /removebuilding - Megadott object törlése a megadott sugárban körülötted.
+• /sin - Kiírja a beírt szám szinuszát a kiválasztott móddal.
+• /cos - Kiírja a beírt szám koszszinuszát a kiválasztott móddal.
+• /tdshow - Egy megadott TextDraw megjelenítése/elrejtése.
+• /std - TextDraw választó felmutatása.
+• /ctd - TextDraw választás befejezése.
+• /abacktrace - AMX Backtrace kiírása
+• /nbacktrace - Native backtrace kiírása
+• /actpo - AttachCameraToPlayerObject
+• /uspawn - Spawnolási helyed frissítése
+• /update - Körülötted lévõ tárgyak frissítése (Streamer_Update())
+• /idleu - Streamer_IdleUpdate() be/ki kapcsolása
+• /freeslot - Kiírja a legkissebb üres object slototú
+• /tohex - Beírt számot hexadecimálisra és binárisra konvertálja
+• /mtid - /mytext-el kapcsolatos információk 
+• /myface - Forgási szöged beállítása (0 - 360)
+• /myskin - Játékossal kapcsolatos adatok kiírása
+• /myzone - Gangwarral kapcsolatos zóna adatok
+• /postasinfo - Póstás munkával kapcsolatos változók megnézése
+• /playmusic - Zene lejátsza az álalad megadott adatokkal
+
+Ház szerkesztés:
+• /createhouse - Ház létrehozása.
+• /delhousecar- Házautó törlése.
+• /closesth - Legközelebbi házak ID-jét adja vissza. Belehet írni, hogy milyen körzetben keresse.
+• /housepos - Ház külsõ kordinátákának átállítása ID szerint.
+• /houseintpos - Ház belsõ kordinátákának ttállítása ID szerint.
+• /houseint - Ház Interior ID átállítása.
+• /houseworld - Ház Virtuális Világának áttállítása. 
+• /housea - Ház kinti forgás fokának beállítása.
+• /houseina - Ház benti forgás fokának beállítása.
+• /houseprice- Ház árának átállítása.
+• /houseearning - Ház jövedelmének átállítása.
+• /houseowner - Ház tulajdonosának átállítása.
+• /lockhouse - Ház lekódolása.
+• /unlockhouse - Ház kódjának törlése.
+• /holoader - Ház objectbetöltõjének ki/be kapcsolása.
+
+
+Biznisz szerkesztés:
+• /createbiz - Biznisz létrehozása.
+• /closestb - Legközelebbi bizniszek ID-jét adja vissza. Belehet írni, hogy milyen körzetben keresse.
+• /bizpos - Biznisz külsõ kordinátákának átállítása ID szerint.
+• /bizintpos - Biznisz belsõ kordinátákának átállítása ID szerint.
+• /bizint - Biznisz Interior típusának átállítása. ( 0: FDPIZA | 1: FDBURG | 2: FDCHICK | 3: AMMUN1 | 4: AMMUN2 | 5: AMMUN3 | 6: AMMUN5 )
+• /setbizicon - Biznisz ikonjának átállítása.
+• /bsetbizicon - Biznisz ikonja átállítása & lezárása tiltva-e legyen. 1 = Tiltva | 0 = Feloldva.
+• /bizvalue - Biznisz árának megváltoztatása.
+• /bizenter - Biznisz belépési árának megváltoztatása.
+• /bizearning - Biznisz jövedelmének átállítása.
+• /bizlock - Biznisz lezárása.
+• /bizowner - Biznisz tulajdonosának átállítása.
